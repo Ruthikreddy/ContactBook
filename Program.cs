@@ -94,6 +94,17 @@ class AddressPrompt
                     Console.WriteLine("Name updated for {0}", Firstname);
                 }
                 break;
+            case "L":
+                if (book.isEmpty())
+                {
+                    Console.WriteLine("There are no entries.");
+                }
+                else
+                {
+                    Console.WriteLine("Addresses:");
+                    book.list((a) => Console.WriteLine("{0} - {1}-{2}--{3}--{4}-{5}--{6}--{7}--{8}", a.Firstname, a.Lastname, a.address, a.city, a.email, a.state, a.zip, a.phoneNo, a.email));
+                }
+                break;
 
         }
     }

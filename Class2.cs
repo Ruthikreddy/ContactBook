@@ -26,7 +26,25 @@ class AddressBook
             return false;
         }
     }
+    public bool remove(string Firstname)
+    {
+        Address addr = find(Firstname);
 
+        if (addr != null)
+        {
+            addresses.Remove(addr);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public void list(Action<Address> action)
+    {
+        addresses.ForEach(action);
+    }
 
     public bool isEmpty()
     {
