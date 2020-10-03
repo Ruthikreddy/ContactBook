@@ -29,7 +29,9 @@ class AddressPrompt
         Console.WriteLine("Main Menu");
         Console.WriteLine("=========");
         Console.WriteLine("A - Add an Address");
-          }
+        Console.WriteLine("D - Delete an Address");
+        Console.WriteLine("E - Edit an Address");
+    }
 
     void performAction(string selection)
     {
@@ -64,6 +66,19 @@ class AddressPrompt
                     Console.WriteLine("An address is already on file for {0}.", Firstname);
                 }
                 break;
+            case "D":
+                Console.WriteLine("Enter Name to Delete: ");
+                Firstname = Console.ReadLine();
+                if (book.remove(Firstname))
+                {
+                    Console.WriteLine("Address successfully removed");
+                }
+                else
+                {
+                    Console.WriteLine("Address for {0} could not be found.", Firstname);
+                }
+                break;
+
             case "E":
                 Console.WriteLine("Enter Name to Edit: ");
                 Firstname = Console.ReadLine();
