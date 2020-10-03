@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\contatctbook\bin\Debug\netcoreapp3.1\contatctbook.exe
+C:\Users\HP\source\repos\contatctbook\bin\Debug\netcoreapp3.1\contatctbook.deps.json
+C:\Users\HP\source\repos\contatctbook\bin\Debug\netcoreapp3.1\contatctbook.runtimeconfig.json
+C:\Users\HP\source\repos\contatctbook\bin\Debug\netcoreapp3.1\contatctbook.runtimeconfig.dev.json
+C:\Users\HP\source\repos\contatctbook\bin\Debug\netcoreapp3.1\contatctbook.dll
+C:\Users\HP\source\repos\contatctbook\bin\Debug\netcoreapp3.1\contatctbook.pdb
+C:\Users\HP\source\repos\contatctbook\obj\Debug\netcoreapp3.1\contatctbook.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\contatctbook\obj\Debug\netcoreapp3.1\contatctbook.AssemblyInfo.cs
+C:\Users\HP\source\repos\contatctbook\obj\Debug\netcoreapp3.1\contatctbook.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\contatctbook\obj\Debug\netcoreapp3.1\contatctbook.dll
+C:\Users\HP\source\repos\contatctbook\obj\Debug\netcoreapp3.1\contatctbook.pdb
+C:\Users\HP\source\repos\contatctbook\obj\Debug\netcoreapp3.1\contatctbook.genruntimeconfig.cache
