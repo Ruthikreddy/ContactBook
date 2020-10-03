@@ -64,7 +64,22 @@ class AddressPrompt
                     Console.WriteLine("An address is already on file for {0}.", Firstname);
                 }
                 break;
-            
+            case "E":
+                Console.WriteLine("Enter Name to Edit: ");
+                Firstname = Console.ReadLine();
+                Address addr = book.find(Firstname);
+                if (addr == null)
+                {
+                    Console.WriteLine("Address for {0} count not be found.", Firstname);
+                }
+                else
+                {
+                    Console.WriteLine("Enter new New name: ");
+                    addr.Firstname = Console.ReadLine();
+                    Console.WriteLine("Name updated for {0}", Firstname);
+                }
+                break;
+
         }
     }
 }
